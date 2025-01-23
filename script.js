@@ -1,7 +1,7 @@
 async function fetchContributors() {
     try {
         // Fetch the list of contributors from the GitHub API
-        const repoUrl = 'https://api.github.com/repos/Jobin-S/contributors-showcase/contents/data';
+        const repoUrl = 'https://api.github.com/repos/abidta/contributors-showcase/contents/data';
         const response = await fetch(repoUrl);
         const files = await response.json();
         
